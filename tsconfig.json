@@ -1,0 +1,17 @@
+{
+  "include": ["./src"],
+  "exclude": ["./node_modules", "./dist"],
+  "compilerOptions": {
+    "noEmit": true,
+    "moduleResolution": "Node",
+    "baseUrl": "./",
+    "jsx": "react-jsxdev",
+    "allowSyntheticDefaultImports": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "sourceMap": true,
+    "target": "ES2020",
+    "module": "ESNext",
+    "forceConsistentCasingInFileNames": true
+  }
+}
