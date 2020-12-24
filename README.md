@@ -1,3 +1,3 @@
-# React Hooks
+# React Generics
 
-Custom hooks that I usually use in my projects.
+Things that I usually use in my projects.
