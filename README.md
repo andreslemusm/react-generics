@@ -12,3 +12,5 @@ Things that I usually use in my react projects.
   1. Making code more consistent and avoiding bugs.
 - Prettier:
   1. Formatting code.
+  
+... More comming soon!
