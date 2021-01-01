@@ -1,7 +1,7 @@
 {
   "name": "react-hooks",
   "version": "0.1.0",
-  "description": "Custom hooks that I usually use in my projects.",
+  "description": "Things that I usually use in my react projects.",
   "main": "src/index.ts",
   "scripts": {
     "test": "jest",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/andresclm/react-hooks.git"
+    "url": "git+https://github.com/andreslemusm/react-hooks.git"
   },
   "author": "Andres Lemus",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/andresclm/react-hooks/issues"
+    "url": "https://github.com/andreslemusm/react-hooks/issues"
   },
-  "homepage": "https://github.com/andresclm/react-hooks#readme",
+  "homepage": "https://github.com/andreslemusm/react-hooks#readme",
   "dependencies": {
     "react": "17.0.1"
   },
@@ -26,6 +26,8 @@
     "@typescript-eslint/parser": "4.11.0",
     "eslint": "7.16.0",
     "eslint-config-prettier": "7.1.0",
+    "eslint-plugin-import": "2.22.1",
+    "eslint-plugin-jsx-a11y": "6.4.1",
     "eslint-plugin-react": "7.21.5",
     "eslint-plugin-react-hooks": "4.2.0",
     "prettier": "2.2.1",
