@@ -13,4 +13,8 @@ Things that I usually use in my react projects.
 - Prettier:
   1. Formatting code.
   
+---
+
 ... More comming soon!
+
+---
