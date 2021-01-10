@@ -1,6 +1,6 @@
 # React Generics
 
-Hooks and components for your React's projects.
+Hooks, components and scripts for your React's projects.
 
 > **_NOTE:_** This is a working project, more content will be added as soon as:
 >
@@ -26,6 +26,8 @@ As simple as copy and paste the code of what you need.
   - [Error Boundary](https://github.com/andreslemusm/react-generics/blob/main/src/components/ErrorBoundary.tsx)
 - ### Hooks
   - [useLocalStorage](https://github.com/andreslemusm/react-generics/blob/main/src/hooks/useLocalStorage.ts)
+- ### Scripts
+  - [create-component](https://github.com/andreslemusm/react-generics/blob/main/src/scripts/create-component.sh)
 
 ## Tooling
 
