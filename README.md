@@ -13,6 +13,7 @@ Hooks, components and scripts for your React's projects.
 - [Generics](#generics)
   - [Components](#components)
   - [Hooks](#hooks)
+  - [Scripts](#scripts)
 - [Tooling](#tooling)
 - [LICENSE](#license)
 
