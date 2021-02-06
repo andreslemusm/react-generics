@@ -24,7 +24,7 @@ type AsyncAction<TData> =
   | { type: "resolved"; data: TData }
   | { type: "rejected"; error: Error };
 
-export const asyncReducer = <TData>(
+const asyncReducer = <TData>(
   _state: AsyncState<TData>,
   action: AsyncAction<TData>
 ) => {
