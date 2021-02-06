@@ -27,6 +27,7 @@ As simple as copy and paste the code of what you need.
   - [Error Boundary](https://github.com/andreslemusm/react-generics/blob/main/src/components/ErrorBoundary.tsx)
 - ### Hooks
   - [useLocalStorage](https://github.com/andreslemusm/react-generics/blob/main/src/hooks/useLocalStorage.ts)
+  - [useSafeDispatch](https://github.com/andreslemusm/react-generics/blob/main/src/hooks/useSafeDispatch.ts)
 - ### Scripts
   - [create-component](https://github.com/andreslemusm/react-generics/blob/main/src/scripts/create-component.sh)
 
