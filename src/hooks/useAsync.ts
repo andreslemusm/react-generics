@@ -1,5 +1,5 @@
-import { useReducer, useCallback } from "react";
 import { useSafeDispatch } from "./useSafeDispatch";
+import { useCallback, useReducer } from "react";
 
 type AsyncState<TData> =
   | {
@@ -44,7 +44,16 @@ const asyncReducer = <TData>(
   }
 };
 
-export const useAsync = <TData>(initialState?: AsyncState<TData>) => {
+export const useAsync = <TData>(
+  initialState?: AsyncState<TData>
+): {
+  setData: (data: TData) => void;
+  setError: (error: Error) => void;
+  error: Error | null | undefined;
+  status: "pending" | "resolved" | "rejected" | "idle";
+  data: TData | null | undefined;
+  run: (promise: Promise<TData>) => void;
+} => {
   const [{ data, error, status }, unsafeDispatch] = useReducer<
     React.Reducer<AsyncState<TData>, AsyncAction<TData>>
   >(asyncReducer, {
@@ -62,7 +71,7 @@ export const useAsync = <TData>(initialState?: AsyncState<TData>) => {
         (data) => {
           dispatch({ type: "resolved", data });
         },
-        (error) => {
+        (error: Error) => {
           dispatch({ type: "rejected", error });
         }
       );

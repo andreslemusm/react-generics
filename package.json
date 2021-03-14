@@ -1,5 +1,5 @@
 {
-  "name": "react-hooks",
+  "name": "react-generics",
   "version": "0.1.0",
   "description": "Things that I usually use in my react projects.",
   "main": "src/index.ts",

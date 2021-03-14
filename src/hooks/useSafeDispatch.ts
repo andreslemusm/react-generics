@@ -1,6 +1,8 @@
 import { useCallback, useLayoutEffect, useRef } from "react";
 
-export const useSafeDispatch = <TAction>(dispatch: React.Dispatch<TAction>) => {
+export const useSafeDispatch = <TAction>(
+  dispatch: React.Dispatch<TAction>
+): ((value: TAction) => void) => {
   const mounted = useRef(false);
 
   useLayoutEffect(() => {
