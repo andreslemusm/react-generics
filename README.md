@@ -28,6 +28,7 @@ As simple as copy and paste the code of what you need.
 - ### Hooks
   - [useAsync](https://github.com/andreslemusm/react-generics/blob/main/src/hooks/useAsync.ts)
   - [useDisclosure](https://github.com/andreslemusm/react-generics/blob/main/src/hooks/useDisclosure.ts)
+  - [useControlledSwitchWarning](https://github.com/andreslemusm/react-generics/blob/main/src/hooks/useControlledSwitchWarning.ts)
   - [useLocalStorage](https://github.com/andreslemusm/react-generics/blob/main/src/hooks/useLocalStorage.ts)
   - [useSafeDispatch](https://github.com/andreslemusm/react-generics/blob/main/src/hooks/useSafeDispatch.ts)
 - ### Scripts

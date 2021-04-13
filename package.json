@@ -18,10 +18,12 @@
   },
   "homepage": "https://github.com/andreslemusm/react-hooks#readme",
   "dependencies": {
-    "react": "17.0.1"
+    "react": "17.0.1",
+    "warning": "4.0.3"
   },
   "devDependencies": {
     "@types/react": "17.0.0",
+    "@types/warning": "3.0.0",
     "@typescript-eslint/eslint-plugin": "4.11.0",
     "@typescript-eslint/parser": "4.11.0",
     "eslint": "7.16.0",
